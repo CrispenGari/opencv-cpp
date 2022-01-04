@@ -30,7 +30,7 @@ Save the changes and restart your computer.
 
 - Open `Visual Studio 2019` and create a new `C++ Console Application` make sure that you set the system to `x64` as shown in the following image:
 
-<img src="/bandicam%202021-02-14%2009-33-26-197.jpg" alt="img" width="100%"/>
+<img src="https://github.com/CrispenGari/opencv-cpp/blob/main/00_SETUP/bandicam%202021-02-14%2009-33-26-197.jpg" alt="img" width="100%"/>
 
 - Then right click on the project name (you have entered this name in a previous step) on the solution explorer and then click 'Properties' in the opened context menu to open the Property Pages window.
 - Go to `Configuration Property` then `VC++ Directories` then click `Include Directories` and the add the following path to it:
