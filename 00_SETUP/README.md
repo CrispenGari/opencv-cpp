@@ -12,7 +12,7 @@ This first chapter will guide you with the step by step installation and set up 
 
 Double click the setup and a folder named `opencv` will be created inside the `C` drive as shown in the image bellow.
 
-<img src="/bandicam%202021-02-14%2009-35-28-795.jpg" alt="img" width="100%"/>
+<img src="https://github.com/CrispenGari/opencv-cpp/blob/main/00_SETUP/bandicam%202021-02-14%2009-35-28-795.jpg" alt="img" width="100%"/>
 
 Copy the path of the build folder that is inside the folder `opencv` and go to `Environment Variables` Settings under path create a new path and add the following path string
 
@@ -22,7 +22,7 @@ C:\opencv\build\x64\vc15\bin
 
 Follow the following steps when adding the path to `Environment Variables`
 
-<img src="/bandicam%202021-02-14%2009-37-55-934.jpg" alt="img" width="100%"/>
+<img src="https://github.com/CrispenGari/opencv-cpp/blob/main/00_SETUP/bandicam%202021-02-14%2009-37-55-934.jpg" alt="img" width="100%"/>
 
 Save the changes and restart your computer.
 
@@ -47,7 +47,7 @@ C:\opencv\build\x64\vc15\lib
 
 Image:
 
-<img src="/bandicam%202021-02-14%2009-34-19-069.jpg" alt="img" width="100%"/>
+<img src="https://github.com/CrispenGari/opencv-cpp/blob/main/00_SETUP/bandicam%202021-02-14%2009-34-19-069.jpg" alt="img" width="100%"/>
 
 - Under the Linker settings Select `Input` click `Additional Dependencies` and add the following.
 
@@ -58,7 +58,7 @@ opencv_world3413d.lib
 
 Image:
 
-<img src="/bandicam%202021-02-14%2009-34-52-090.jpg" alt="img" width="100%"/>
+<img src="https://github.com/CrispenGari/opencv-cpp/blob/main/00_SETUP/bandicam%202021-02-14%2009-34-52-090.jpg" alt="img" width="100%"/>
 
 - Click `apply` and then `ok`
 
@@ -89,7 +89,7 @@ int main()
 
 ## Output:
 
-<img src="/bandicam%202021-02-14%2009-22-01-648.jpg" alt="img" width="100%"/>
+<img src="https://github.com/CrispenGari/opencv-cpp/blob/main/00_SETUP/bandicam%202021-02-14%2009-22-01-648.jpg" alt="img" width="100%"/>
 
 ## C++ OpenCV Tutorial Documentation
 
