@@ -9,7 +9,7 @@
   - In this example we are going to create two track and use the `cvGetTrackbarPos(trackbarName, windowName)` method to get the values of each track bar position.
   - This can be done as follows:
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -59,7 +59,7 @@ int main()
 
 * We will modify our code from the previous example
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -100,7 +100,7 @@ int main()
 ### Output
 
 <div align="center">
-<img alt="output-image" src="https://github.com/CrispenGari/Adding-And-Tracking-Track-Bars/blob/main/bandicam%202021-03-15%2010-27-32-900.jpg">
+<img alt="output-image" src="https://github.com/CrispenGari/opencv-cpp/blob/main/06_TRACK_BARS/bandicam%202021-03-15%2010-27-32-900.jpg">
 </div>
 
 ## Trackbar with Callback Function
@@ -114,7 +114,7 @@ int main()
 - In this example, we have added two trackbars to change the brightness and contrast of an image. And a callback function is implemented for each trackbar.
 - We are going to modify our code and make it look as follows:
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -177,7 +177,7 @@ int main()
 ### Output
 
 <div align="center">
-<img alt="output-image" src="https://github.com/CrispenGari/Adding-And-Tracking-Track-Bars/blob/main/bandicam%202021-03-15%2010-41-07-366.jpg">
+<img alt="output-image" src="https://github.com/CrispenGari/opencv-cpp/blob/main/06_TRACK_BARS/bandicam%202021-03-15%2010-41-07-366.jpg">
 </div>
 That's all on the next section we will look at the Mouse Events
 

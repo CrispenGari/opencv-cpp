@@ -9,8 +9,7 @@ Histogram of an image is the graphical representation of the distribution of int
 > Example:
 > Equalizing the histogram of a `grayscale` image using the OpenCV in-built functions. So from this example will also learn how to convert an image to grayscale using the `cvtColor()` function.
 
-```
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -52,8 +51,7 @@ int main(){
   - Convert the histogram equalized image from YCrCb to BGR color space again
   - Display the images
 
-```
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -98,8 +96,7 @@ Now we are going to show you how to equalize the histogram of a video using an O
 
 #### a. On the coloured video
 
-```
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -138,8 +135,7 @@ int main()
 
 #### b. On the grayscale video
 
-```
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>

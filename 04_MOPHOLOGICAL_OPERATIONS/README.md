@@ -12,7 +12,7 @@ In this technique, each pixel value of the resultant image is calculated as the 
 > Example:
 > In this example we will erode the images and display them with two different kernel sizes, `5x5` and `3x3`.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -48,7 +48,7 @@ Dilating is something like opposite of the eroding an image.
 > In this example we will dilate the images and display them with two different kernel sizes, `5x5` and `3x3`.
 > That's all on the next section we will look at the Morphological Operations on images and videos.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -83,7 +83,3 @@ That's all in the next section we will look at Trackbar in openCV
 ## Credits
 
 - [Stackoverflow](https://stackoverflow.com/)
-
-```
-
-```

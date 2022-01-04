@@ -22,7 +22,7 @@ If you want to increase the brightness of an image, you have to add some positiv
 
 - Suppose we want to change the brightness of our image `avatar.jpg` and increase it's brightness by `50` we can do that as follows, Simillarily when we want to reduce the brightness by `100`, of the image frame all we need to do is to subtract a certain value.
 
-```
+```c++
 
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
@@ -63,9 +63,7 @@ int main()
 
 We want to create a program that listen to the user click on the up and down keys if the user presses the up button the brightness of the image should be increased otherwise the brightness of the image should be reduced.
 
-```
-
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -112,9 +110,7 @@ The method is simmilar to the change of brightness on an image frame.
 
 > Example
 
-```
-
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -181,7 +177,7 @@ Changing contrast of an image is also a commonly used point operation. In this o
 
 > Example
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -224,9 +220,7 @@ Now we are going to show you how to increase and decrease the contrast of a vide
 
 > Example:
 
-```
-
-
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>

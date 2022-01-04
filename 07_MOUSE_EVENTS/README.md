@@ -34,7 +34,7 @@
     - EVENT_FLAG_ALTKEY
   - **userdata** - Any pointer passes to the "setMouseCallback" function as the 3rd parameter (see below)
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -75,7 +75,7 @@ int main()
 ### Output
 
 <div align="center">
-<img alt="output-image" src="https://github.com/CrispenGari/Mouse-Events-OpenCV-CPP/blob/main/bandicam%202021-03-15%2011-07-13-380.jpg">
+<img alt="output-image" src="https://github.com/CrispenGari/opencv-cpp/blob/main/07_MOUSE_EVENTS/bandicam%202021-03-15%2011-07-13-380.jpg">
 </div>
 
 ## Example 2:
@@ -90,7 +90,7 @@ int main()
 
 - We will modify our code from the previous example:
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -133,7 +133,7 @@ int main()
 ```
 
 <div align="center">
-<img alt="output-image" src="https://github.com/CrispenGari/Mouse-Events-OpenCV-CPP/blob/main/bandicam%202021-03-15%2011-24-37-533.jpg">
+<img alt="output-image" src="https://github.com/CrispenGari/opencv-cpp/blob/main/07_MOUSE_EVENTS/bandicam%202021-03-15%2011-24-37-533.jpg">
 </div>
 That's all on the next section we will look at Rotate Image & Video
 

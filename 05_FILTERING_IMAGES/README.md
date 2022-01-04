@@ -37,7 +37,7 @@ Homogeneous Blur is the most simplest method of smoothing an image. It is also c
 
 We want to blur/smooth an image with OpenCV with.We are going to illustrate this using 2 kernel sizes `3 x 3` and `5 x 5` kernel for this example program.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -71,7 +71,7 @@ OpenCV has an in-built function to perform Gaussian blur/smoothing on images eas
 
 > Example:
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -100,7 +100,7 @@ int main() {
 
 Inverting an image is like taking the negative of an image.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>

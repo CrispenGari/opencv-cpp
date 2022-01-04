@@ -22,7 +22,7 @@ The following function will be observed in the code that follows:
 
 > The following code will read the `avatar.png` file that is in the `images` folder and display it on the screen.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -58,7 +58,7 @@ The following functions will be observed in the code that follows
 - waitKey(delay)
   - keeps the window mounted and display the image
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -101,7 +101,7 @@ int main(){
 
 > In order to play the video with it's normal rate then we should divide the 1000ms by the Frame per Second and pass it as an argument to the waitKey() function as an integer. The code that does that is as follows:
 
-```
+```c++
 if (waitKey(int(1000/fps)) == 27 ) {
     // wait for the escape key
     break;
@@ -114,7 +114,7 @@ if (waitKey(int(1000/fps)) == 27 ) {
 
 The only difference between reading the video from the webcam and from a local file is the input of the `cap()`. In order to read the video from a webcam we should pass `0` to the cap function. The other difference is the `waitKey(delay)` we should pass a wait key delay of `1ms` in order to capture the video in real time.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -157,7 +157,7 @@ int main(){
 
 > In this example we will read an image and convert it to grayscale. And then we will write save it in the folder called `output/images` with a filename called `gray.png`
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -193,7 +193,7 @@ int main(){
 
 > We want to make this more funny by listening to keyboard event's. We want to say if the user clicks the space on the keyboard then we save the image in the folder `output/images` with the file name `capture.png`. So we are going to use the video capture and modify our code a little bit. For the keys number that correspond to the key you want can be found [Here](https://progtpoint.blogspot.com/2017/06/key-board-ascii-key-code.html)
 
-```
+```cpp
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
@@ -254,7 +254,7 @@ We will be introduced to the following new functions
 
 > We want to record a video and save it in the folder `output/videos` with the file name `recording.avi` when the user clicks the space button. If the the video is recording on the space button click then it will stop recording otherwise it will start recording.
 
-```
+```c++
 #include <opencv2/imgcodecs.hpp>
 #include <opencv2/highgui.hpp>
 #include <opencv2/imgproc.hpp>
